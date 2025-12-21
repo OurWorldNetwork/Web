@@ -26,6 +26,7 @@
  */
 import { defineCollection, defineCollections } from 'vuepress-theme-plume'
 
+
 /* =================== locale: zh-CN ======================= */
 
 const zhBlog = defineCollection({
