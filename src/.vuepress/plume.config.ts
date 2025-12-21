@@ -54,7 +54,7 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/config/theme/#profile
        */
       profile: {
-        avatar: 'https://theme-plume.vuejs.press/plume.png',
+        avatar: '/favicon-origin.png',
         name: 'OurWorldNetwork Docs',
         description: 'OurWorldNetwork Offical Docs',
         // circle: true,

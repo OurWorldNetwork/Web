@@ -60,7 +60,7 @@ const zhDoc = defineCollection({
   title: '文档',
   // 手动配置侧边栏结构
   sidebar: [
-    { text: '快速开始', prefix: 'guide', collapsed: false, items: ['join', 'intro', 'choose-server-tips','package'] },
+    { text: '快速开始', prefix: 'guide', collapsed: false, items: ['join', 'intro'] },
     // { text: '服务器设置', prefix: 'config', collapsed: false, items: ['server-config', 'msl'] },
     // { text: '映射/联机', prefix: 'proxy', collapsed: false, items: ['frp', 'p2p','frp-real-ip'] },
     // { text: '高级配置', prefix: 'advanced', collapsed: false, items: ['neoforge-forge', 'yggdrasil', 'use-linux'] },
