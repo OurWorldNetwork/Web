@@ -6,3 +6,10 @@ src/.vuepress/dist
 
 .DS_Store
 *.log
+
+.vscode/
+
+pnpm-lock.yaml
+
+package-lock.json
+yarn.lock
