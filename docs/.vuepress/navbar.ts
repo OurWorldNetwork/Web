@@ -10,6 +10,7 @@ export default defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '文档', link: '/docs/guide/intro' },
   { text: '博客', link: '/blog/' },
+  { text: 'QQ群', link: '/qq-group' },
   // { text: '标签', link: '/blog/tags/' },
   // { text: '归档', link: '/blog/archives/' },
   // {

@@ -60,11 +60,11 @@ const zhDoc = defineCollection({
   // 手动配置侧边栏结构
   sidebar: [
     { text: '快速开始', prefix: 'guide', collapsed: false, items: ['join', 'intro', 'choose-server-tips','package'] },
-    { text: '服务器设置', prefix: 'config', collapsed: false, items: ['server-config', 'msl'] },
-    { text: '映射/联机', prefix: 'proxy', collapsed: false, items: ['frp', 'p2p','frp-real-ip'] },
-    { text: '高级配置', prefix: 'advanced', collapsed: false, items: ['neoforge-forge', 'yggdrasil', 'use-linux'] },
-    { text: 'MSL资源', prefix: 'msl', collapsed: false, items: ['msl-skin', 'oauth2', 'msl-mirrors'] },
-    { text: '错误排查', prefix: 'faq', collapsed: false, items: ['', 'server-crash'] },
+    // { text: '服务器设置', prefix: 'config', collapsed: false, items: ['server-config', 'msl'] },
+    // { text: '映射/联机', prefix: 'proxy', collapsed: false, items: ['frp', 'p2p','frp-real-ip'] },
+    // { text: '高级配置', prefix: 'advanced', collapsed: false, items: ['neoforge-forge', 'yggdrasil', 'use-linux'] },
+    // { text: 'MSL资源', prefix: 'msl', collapsed: false, items: ['msl-skin', 'oauth2', 'msl-mirrors'] },
+    // { text: '错误排查', prefix: 'faq', collapsed: false, items: ['', 'server-crash'] },
   ],
   // 根据文件结构自动生成侧边栏
   // sidebar: 'auto',
