@@ -19,7 +19,7 @@ import footer from './footer'
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: '/favicon-big.png',
 
   appearance: true,  // 配置 深色模式
 

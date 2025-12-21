@@ -9,8 +9,21 @@ export const routes = Object.fromEntries([
   ["/docs/guide/intro", { loader: () => import(/* webpackChunkName: "docs_guide_intro.html" */"F:/OurWorldNetwork Web/src/.vuepress/.temp/pages/docs/guide/intro.html.js"), meta: {"title":"介绍","icon":"book"} }],
   ["/docs/guide/join", { loader: () => import(/* webpackChunkName: "docs_guide_join.html" */"F:/OurWorldNetwork Web/src/.vuepress/.temp/pages/docs/guide/join.html.js"), meta: {"title":"加入游戏","icon":"play"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"F:/OurWorldNetwork Web/src/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
-  ["/blog/", { loader: () => import(/* webpackChunkName: "blog_index.html" */"F:/OurWorldNetwork Web/src/.vuepress/.temp/pages/blog/index.html.js"), meta: {"title":"Blog"} }],
-  ["/blogtags/", { loader: () => import(/* webpackChunkName: "blogtags_index.html" */"F:/OurWorldNetwork Web/src/.vuepress/.temp/pages/blogtags/index.html.js"), meta: {"title":"标签"} }],
-  ["/blogarchives/", { loader: () => import(/* webpackChunkName: "blogarchives_index.html" */"F:/OurWorldNetwork Web/src/.vuepress/.temp/pages/blogarchives/index.html.js"), meta: {"title":"归档"} }],
-  ["/blogcategories/", { loader: () => import(/* webpackChunkName: "blogcategories_index.html" */"F:/OurWorldNetwork Web/src/.vuepress/.temp/pages/blogcategories/index.html.js"), meta: {"title":"分类"} }],
 ]);
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateRoutes) {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+  }
+  if (__VUE_HMR_RUNTIME__.updateRedirects) {
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ routes, redirects }) => {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  })
+}

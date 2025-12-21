@@ -18,15 +18,15 @@ export default defineUserConfig({
   lang: 'zh-CN',
   locales: {
     '/': {
-      title: 'OurWorldNetwork 文档',
+      title: 'OurWorldNetwork',
       lang: 'zh-CN',
-      description: 'OurWorldNetwork 官方文档',
+      description: 'OurWorldNetwork 是一个致力于构建开放、共享、自由的Minecraft社区服务器。',
     }
   },
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
   ],
 
   bundler: viteBundler(),
@@ -148,7 +148,7 @@ export default defineUserConfig({
      * 水印
      * @see https://theme-plume.vuejs.press/guide/features/watermark/
      */
-    watermark: true,
+    // watermark: true,
 
     /**
      * 评论 comments
