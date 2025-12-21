@@ -7,10 +7,10 @@
   "author": "Zatursure",
   "license": "MIT",
   "scripts": {
-    "build": "vuepress build docs --clean-cache --clean-temp",
-    "dev": "vuepress dev docs",
-    "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-    "preview": "http-server docs/.vuepress/dist",
+    "build": "vuepress build src --clean-cache --clean-temp",
+    "dev": "vuepress dev src",
+    "dev-clean": "vuepress dev src --clean-cache --clean-temp",
+    "preview": "http-server src/.vuepress/dist",
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {

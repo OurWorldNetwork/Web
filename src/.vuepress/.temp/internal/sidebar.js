@@ -1,0 +1,1 @@
+export const sidebar = {"/":{"/docs/":{"items":[{"text":"快速开始","prefix":"guide","collapsed":false,"items":["join","intro","choose-server-tips","package"]}],"prefix":"/docs/"}},"__auto__":{},"__home__":{}}

@@ -1,0 +1,1 @@
+export const collections = {"/":[{"type":"post","dir":"blog","title":"Blog","link":"/blog","linkPrefix":"/blog","tags":true,"tagsLink":"/blogtags/","archives":true,"archivesLink":"/blogarchives/","categories":true,"categoriesLink":"/blogcategories/"},{"type":"doc","dir":"docs","linkPrefix":"/docs","title":"文档","sidebarCollapsed":true}]}
