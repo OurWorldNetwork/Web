@@ -9,7 +9,7 @@ config:
     hero:
       name: OurWorldNetwork
       tagline: 新兴多玩法Minecraft群组服
-      text: 1.8.8-1.21.10<br>mc.ourworld.cc
+      text: 1.7.2-1.21.10
       actions:
         -
           theme: brand
@@ -31,7 +31,7 @@ config:
         title: 测试
         icon: s:rocket
         details: 这是一个火箭
-        link: /docs/mc-server/start/
+        link: /docs/guide/join
   -
     type: profile
     name: Xenovex
@@ -55,6 +55,6 @@ config:
   -
     type: profile
     name: 一只万叶
-    description: <b>给渣土提供感情支持</b><br>飘渺风雨中，睹物思故乡 🍁<br>哈基米~南北绿豆~叮咚鸡~ 🐱
+    description: <b>给渣土提供感情支持</b><br>飘渺风雨中，睹物思故乡<br>哈基米~南北绿豆~叮咚鸡~
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=1722157266&spec=640&img_type=jpg
 ---
