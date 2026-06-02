@@ -8,8 +8,8 @@ config:
     background: tint-plate
     hero:
       name: OurWorldNetwork
-      tagline: 没毅力的单玩法Minecraft生存服
-      text: 1.7.2-1.21.10
+      tagline: 新兴多玩法群组服
+      text: 1.7.2-26.1.2
       actions:
         -
           theme: brand
@@ -23,7 +23,7 @@ config:
     type: features
     features:
       -
-        title: 这是一个Github
+        title: Github
         icon: b:github
         details: XXXXX
         link: https://github.com/OurWorldNetwork
@@ -42,9 +42,4 @@ config:
     name: Cryonix
     description: <b>腐竹</b><br>Just a cat.
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3905274040&spec=640&img_type=jpg
-  -
-    type: profile
-    name: Koe
-    description: <b>蠢逼</b><br>言行举止
-    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2227911631&spec=640&img_type=jpg
 ---
