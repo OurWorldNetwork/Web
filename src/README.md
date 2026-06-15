@@ -37,8 +37,8 @@ config:
     name: Xenovex
     description: <b>腐竹</b><br>X0
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3870663737&spec=640&img_type=jpg
-	-
-		type: profile
+  -
+    type: profile
     name: 淡水鱼
     description: <b>腐竹/运维</b><br>
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3994655402&spec=640&img_type=jpg
@@ -47,8 +47,8 @@ config:
     name: Cryonix
     description: <b>腐竹</b><br>Just a cat.
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3905274040&spec=640&img_type=jpg
-	-
-		type: profile
+  -
+    type: profile
     name: Zatursure
     description: <b>开发/运维</b><br>即使无法掌握未来，也请不要忘了明天
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3641481818&spec=640&img_type=jpg
