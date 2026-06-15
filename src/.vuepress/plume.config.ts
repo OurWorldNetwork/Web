@@ -69,12 +69,12 @@ export default defineThemeConfig({
        * 公告板
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
-      //  bulletin: {
-      //    layout: 'top-right',
-      //    contentType: 'markdown',
-      //    title: 'Test',
-      //    content: '这是一条测试公告',
-      //  },
+      bulletin: {
+      		layout: 'top-right',
+      		contentType: 'markdown',
+      		title: '公告',
+      		content: '加入QQ交流群808590226与其他更多玩家交流吧',
+      	},
     },
   },
 })
