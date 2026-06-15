@@ -156,7 +156,7 @@ export default defineUserConfig({
      */
      comment: {
        provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-       comment: true,
+       comment: false,
        repo: 'OurWorldNetwork/Web',
        repoId: 'R_kgDOQrue7g',
        category: 'Show and tell',
