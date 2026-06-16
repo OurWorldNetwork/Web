@@ -11,7 +11,6 @@ icon: play
 所需运行环境: ==Java 21=={.important}
 
 <LinkCard title="下载 Java21" icon="download" href="https://www.oracle.com/cn/java/technologies/downloads/#jdk21-windows" description="点击跳转到Oracle JDK官方下载页面" />
-**不建议将MSL放置于磁盘根目录或C盘某些特殊目录（如临时目录或需要管理员权限的目录），否则后果自负！**
 
 :::
 我们不推荐您使用自定义客户端进入服务器，若您知道您在做什么可以使用此地址进入服务器：`mc.ourworld.cc`
