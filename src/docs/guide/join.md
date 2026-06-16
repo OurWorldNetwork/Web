@@ -13,7 +13,7 @@ icon: play
 <LinkCard title="下载 Java21" icon="download" href="https://www.oracle.com/cn/java/technologies/downloads/#jdk21-windows" description="点击跳转到Oracle JDK官方下载页面" />
 
 :::
-我们不推荐您使用自定义客户端进入服务器，若您知道您在做什么可以使用此地址进入服务器：`mc.ourworld.cc`
+我们不推荐您使用自定义客户端进入服务器，若您知道您在做什么可以使用此地址进入服务器：`ourworld.cc`
 <!-- - **基岩版地址**：`mc.ourworld.cc` 端口：`19132` -->
 
 # 2. **初次登录流程**
